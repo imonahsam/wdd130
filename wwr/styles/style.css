@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Rock+Salt&display=swap');
+
 #content {
     margin: 0 auto;
+    max-width: 1600px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -20,17 +28,38 @@ nav a {
     text-align: center;
 }
 
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
 main section {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
     height: 725px;
     background-color: white;
+    margin-bottom: 100px;
 }
 
 body {
     background-color: gainsboro;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -43,13 +72,23 @@ nav a:hover {
 }
 
 .book {
-    background-color: gainsboro;
+    background-color: white;
+    color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     background-color: white;
+    color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -64,15 +103,28 @@ nav a:hover {
 
 .msg {
     background-color: rgb(210, 205, 205);
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: black;
+    font-family: 'Rock Salt', 'Helvetica', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 footer {
     background-color: whitesmoke;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer p {
@@ -85,10 +137,15 @@ footer p a:hover {
 
 .msg h2 {
     color: black;
+    font-size: 18px;
+    margin: 0;
 }
+
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -102,6 +159,11 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.card-img {
+    border: 10px solid white;
 }
 
 #hero-img {
