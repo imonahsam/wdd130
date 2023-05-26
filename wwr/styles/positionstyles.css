@@ -83,13 +83,13 @@
   grid-column: 1/3;
 } 
 .green3 {
-  width: 660px; 
+  width: 500px; 
   height: 150px; 
   background-color: green;
 
 } 
 .yellow3 {
-  width: 660px; 
+  width: 500px; 
   height: 150px; 
   background-color: gold;
   justify-self: right;
@@ -168,7 +168,7 @@
   height: 200px; 
   background-color: gold; 
   text-align: justify;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
 } 
 .blue5 {
